@@ -29,6 +29,7 @@ class Ui_MainWindow(object):
         self.gridLayout.setContentsMargins(0, 0, 0, 0)
         self.gridLayout.setObjectName("gridLayout")
         self.timerLcd = QtWidgets.QLCDNumber(self.layoutWidget)
+        self.timerLcd.setDigitCount(14)
         self.timerLcd.setObjectName("timerLcd")
         self.gridLayout.addWidget(self.timerLcd, 0, 0, 1, 3)
         self.relaxLcd = QtWidgets.QLCDNumber(self.layoutWidget)

@@ -50,7 +50,11 @@
       </property>
       <layout class="QGridLayout" name="gridLayout">
        <item row="0" column="0" colspan="3">
-        <widget class="QLCDNumber" name="timerLcd"/>
+        <widget class="QLCDNumber" name="timerLcd">
+         <property name="digitCount">
+          <number>14</number>
+         </property>
+        </widget>
        </item>
        <item row="1" column="0">
         <widget class="QLCDNumber" name="relaxLcd">
